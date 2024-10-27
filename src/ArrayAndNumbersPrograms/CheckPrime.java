@@ -1,4 +1,4 @@
-package ex_10092024;
+package ArrayAndNumbersPrograms;
 
 public class CheckPrime {
 
@@ -7,7 +7,7 @@ public class CheckPrime {
             return false;
         }
         for (int i=2;i<=Math.sqrt(num);i++){
-            if(num%i==0){
+            if(num % i==0){
                 return false;
             }
         }

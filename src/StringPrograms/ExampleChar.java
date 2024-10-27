@@ -1,4 +1,4 @@
-package ex_18092024;
+package StringPrograms;
 
 public class ExampleChar {
     public static void main(){

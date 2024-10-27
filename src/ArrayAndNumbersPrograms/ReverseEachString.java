@@ -1,4 +1,4 @@
-package ex_10092024;
+package ArrayAndNumbersPrograms;
 
 public class ReverseEachString {
 

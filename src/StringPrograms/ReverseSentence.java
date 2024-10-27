@@ -1,4 +1,4 @@
-package ex_18092024;
+package StringPrograms;
 
 public class ReverseSentence {
     public static void main(String [] args){

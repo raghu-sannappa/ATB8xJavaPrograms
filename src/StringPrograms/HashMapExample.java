@@ -1,4 +1,4 @@
-package ex_18092024;
+package StringPrograms;
 
 import java.util.HashMap;
 import java.util.Map;
