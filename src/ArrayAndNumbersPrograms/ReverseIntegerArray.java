@@ -2,25 +2,25 @@ package ArrayAndNumbersPrograms;
 
 public class ReverseIntegerArray {
 
-    public static int [] reverseArray(int [] a){
-        int len = a.length;
-        int [] rev_arr = new int[len];
+    public static int [] reverseArray(int [] arr){
+        int len = arr.length;
+        int [] revArray2 = new int[len];
 
         for(int i=0;i<=len-1;i++){
 
-            rev_arr[i] = a[len-1-i];
+            revArray2[i] = arr[len-1-i];
         }
-        return rev_arr;
+        return revArray2;
     }
 
 
     public static void main(String [] args){
 
-        int [] num_arr = {10,20,30,40,50};
-        int [] rev1 = reverseArray(num_arr);
+        int [] arr = {10,20,30,40,50};
+        int [] revArray1 = reverseArray(arr);
 
-        for(int revnames : rev1){
-            System.out.println(revnames);
+        for(int var : revArray1){
+            System.out.println(var);
         }
 
     }
