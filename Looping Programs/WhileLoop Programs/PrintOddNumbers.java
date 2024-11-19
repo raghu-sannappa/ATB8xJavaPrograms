@@ -1,18 +1,24 @@
-//WAJP to find sum of odd numbers from 1 to 10.
+//WAJPT print the odd numbers from 1 to 10.
+
 
 class PrintOddNumbers
-{ 
-	public static void main(String [] args)
+{
+	public static void printOddNumbersOnly(int num)
 	{ 
-		int num = 1,sum = 0;
+	
+		System.out.println("Even Numbers Between 1 to 10.");	
 		while(num<=10)
 		{ 
-			if((num % 2) != 0)
-			{ 
-				sum =sum + num;	
+			if(num%2!=0)
+			{
+			System.out.println(num);
 			}
 		num++;
 		}
-		System.out.println("Sum of odd numbers between 1 to 10 is:"+sum);
+	}
+	public static void main(String[] args)
+	{
+		int num =1;
+		printOddNumbersOnly(num);
 	}
 }

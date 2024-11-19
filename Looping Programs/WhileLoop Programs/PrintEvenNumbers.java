@@ -1,16 +1,23 @@
-//WAJP to print even numbers from 10 to 20
+//WAJPT print the even numbers from 1 to 10.
 
 class PrintEvenNumbers
-{ 
-	public static void main(String [] args)
+{
+	public static void printEvenNumbersOnly(int num)
 	{ 
-		int num = 10;
-		
-		while(num<=20)
+	
+		System.out.println("Even Numbers Between 1 to 10.");	
+		while(num<=10)
 		{ 
+			if(num%2==0)
+			{
 			System.out.println(num);
-			num = num + 2;
+			}
+		num++;
 		}
 	}
-
+	public static void main(String[] args)
+	{
+		int num =1;
+		printEvenNumbersOnly(num);
+	}
 }
