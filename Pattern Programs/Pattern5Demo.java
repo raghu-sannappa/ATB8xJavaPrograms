@@ -13,12 +13,13 @@ class Pattern5Demo
 		
 		for(int i=0;i<rows;i++)
 		{ 
+			value=4;
 			for(int j=0;j<rows;j++)
 			{ 
 				System.out.print(value);
 				value--;
 			}
-			value=4;
+			
 		System.out.println();
 		}
 	}
