@@ -13,13 +13,13 @@ class Pattern13Demo
 		
 		for(int i=0;i<n;i++)
 		{ 
-			int k=i+1;
+			int num=i+1;
 			char ch=(char)('A'+ i);
 			for(int j=0;j<n;j++)
 			{  
 				if(j % 2==0)
 				{
-					System.out.print(k +" ");
+					System.out.print(num +" ");
 				}
 				else
 				{  
